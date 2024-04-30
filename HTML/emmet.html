@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- here we use > operator to insert imag tag in paragraph tag -->
+    <p><img src="" alt=""></p>
+    
+    <!-- here we use p>p>p to create nested paragraph tags -->
+    <p>
+        <p>
+            <p></p>
+        </p>
+    </p>
+
+    <!-- here we use p>h1 to insert h1 tag in paragraph tag -->
+
+    <p>
+        <h1></h1>
+    </p>
+
+    <!-- here we use article+section to create article and section tag -->
+
+    <article></article>
+    <section></section>
+
+    <!-- here we use p{this is my first paragraph} to create paragraph tag with content  -->
+
+    <p>this is my first paragraph</p>
+
+    <h3>this is my first heading</h3>  
+
+    <article>this is my first article</article>
+
+    <section>this is my first section</section>
+
+    <a href="">click here</a>
+
+    <!-- how to create id using emmet -->
+
+    <!-- # is used to create id , e.g p#para1 -->
+
+    <p id="para1"></p>
+
+    <artcle id="article1"></artcle>
+
+    <!-- how to create class using emmet -->
+
+    <!-- . is used to create class e.g p.para -->
+
+    <p class="para"></p>
+
+    <artcle class="dog"></artcle>
+
+    <section class="lion dog cat"></section>
+
+    <!-- example of using emmet -->
+
+    <p>
+        <ul>
+            <li>A</li>
+            <li>B</li>
+            <li>C</li>
+            <li>D</li>
+        </ul>
+    </p>
+
+    <p></p>
+    <article></article>
+    <section></section>
+
+    <!-- section>p+p+p is used -->
+
+    <section>
+        <p></p>
+        <p></p>
+        <p></p>
+    </section>
+
+    <!-- section>p*3 is used -->
+
+    <section>
+        <p></p>
+        <p></p>
+        <p></p>
+    </section>
+
+    <!-- table>tr>td*5 is used -->
+
+    <table>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+
+    <!-- table(tr>td*5)*2 is used -->
+
+    <table>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+
+    <!-- header+main+footer -->
+
+    <header></header>
+    <main></main>
+    <footer></footer>
+
+    <!-- section>(ul>li*2)+footer-->
+
+    <section>
+        <ul>
+            <li></li>
+            <li></li>
+        </ul>
+        <footer></footer>
+    </section>
+
+    <!-- here we create a div tag using emmit e.g div.container  -->
+
+    <div class="container">
+
+        <section>
+            <ul>
+                <li></li>
+                <li></li>
+            </ul>
+            <footer></footer>
+        </section>
+
+    </div>
+
+    <!-- here we create a div tag using emmit e.g div.wrapper  -->
+
+    <div class="wrapper">
+        <header></header>
+        <main></main>
+        <footer></footer>
+    
+    </div>
+
+    <!-- div tag is by default a block element beacuse it take space from left to rigth ans its come in next line  -->
+
+    <div style="background-color: aqua;">this is my first div tag</div>
+    <div style="background-color: aqua;">this is my second div tag</div>
+
+    <!-- span tag is by default a inline element beacuse it take space according to the content and always comes in same line -->
+
+    <span style="background-color: yellow;">this is my first span tag</span>
+    <span style="background-color: yellow;">this is my second span tag</span>
+
+     <p style="background-color: red; display: inline;">first para</p>
+     <p style="background-color: red;">second para</p>
+
+    <!-- creating multipe hyperlinks using list -->
+    <!-- ul>(li>p>a)*5 -->
+
+    <ul>
+        <li>
+            <p><a href="https://www.google.com/">google</a></p>
+        </li>
+        <li>
+            <p><a href="https://www.youtube.com/">youtube</a></p>
+        </li>
+        <li>
+            <p><a href="">C</a></p>
+        </li>
+        <li>
+            <p><a href="">D</a></p>
+        </li>
+        <li>
+            <p><a href="">E</a></p>
+        </li>
+    </ul>
+
+    <!-- creating navigation bar using nav tag and list-->
+
+    <nav>
+        <ul>
+            <li style="display: inline;"><a href="">Home</a></li>
+            <li style="display: inline;"><a href="">About</a></li>
+            <li style="display: inline;"><a href="">Contact Us</a></li>
+            <li style="display: inline;"><a href="">Log in</a></li>
+        </ul>
+    </nav>
+
+
+
+
+
+    
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Job Application</h2>
+
+    <form>
+
+        <lebal for="name">Name:</lebal><br>
+        <input type="text" name="name" id="name"><br>
+
+        <lebal for="emailID">Email:</lebal><br>
+        <input type="email" name="emailID" id="emailID"><br>
+
+        <lebal for="phone">Phone:</lebal><br>
+        <input type="tel" name="phone" id="phone"><br>
+
+        <label for="resume">Resume: </label><br>
+        <input type="file" name="resume" id="resume"><br>
+
+        <label for="counter">Experience(years): </label><br>
+        <input type="number" name="counter" id="counter" min="0" max="50"><br>
+
+        <fieldset>
+            <legend>Skills:</legend>
+
+            <input type="checkbox" name="checkbox1" id="checkbox1"><br>
+            <label for="checkbox1">HTML</label><br>
+            
+            <input type="checkbox" name="checkbox2" id="checkbox2"><br>
+            <label for="checkbox2">CSS</label><br>
+            
+            <input type="checkbox" name="checkbox3" id="checkbox3"><br>
+            <label for="checkbox">JavaScript</label><br>
+
+        </fieldset>
+
+        <label for="education">Highest Education:</label>
+        <select name="education" id="education">
+            <option value="a">A</option>
+            <option value="b">B</option>
+            <option value="c">C</option>
+            <option value="d">D</option>
+            <option value="e">E</option>
+        </select>
+
+        <fieldset>
+            <legend>Availability</legend>
+
+            <label for="radio1">Full-time</label>
+            <input type="radio" name="availability" id="radio1"><br>
+            
+            <label for="radio2">Part-time</label>
+            <input type="radio" name="availability" id="radio2"><br>
+
+        </fieldset>
+
+        <label for="textarea1">Additional Comments: </label><br>
+        <textarea name="textarea1" id="textarea1" cols="30" rows="10"></textarea><br>
+
+        <input type="submit" value="Submit Application">
+
+
+
+
+    </form>
+    
+</body>
+</html>
